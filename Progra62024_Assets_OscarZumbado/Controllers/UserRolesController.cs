@@ -6,11 +6,14 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Progra62024_Assets_OscarZumbado.Models;
+using Progra62024_Assets_OscarZumbado.Attributes;
+
 
 namespace Progra62024_Assets_OscarZumbado.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Apikey]
     public class UserRolesController : ControllerBase
     {
         private readonly Progra620241Context _context;

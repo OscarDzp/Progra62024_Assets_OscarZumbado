@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Progra62024_Assets_OscarZumbado.Models;
 using Progra62024_Assets_OscarZumbado.Attributes;
+using Progra62024_Assets_OscarZumbado.ModelsDTOs;
 
 
 namespace Progra62024_Assets_OscarZumbado.Controllers
@@ -43,6 +44,7 @@ namespace Progra62024_Assets_OscarZumbado.Controllers
 
             return userRole;
         }
+
 
         // PUT: api/UserRoles/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

@@ -3,7 +3,7 @@
     public class UserPostDTO
     {
         
-        public int CodigoUsuario { get; set; }
+        //usaremos este dto para el proceso de crear usuario nuevo
 
         public string Cedula { get; set; } = null!;
 
@@ -19,10 +19,10 @@
 
         public string Contrasennia { get; set; } = null!;
 
-        public bool? Activo { get; set; }
-
         public int CodigoDeRol { get; set; }
 
-        public string? RolDeUsuario { get; set; }
+ 
+
+
     }
 }

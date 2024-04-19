@@ -14,7 +14,7 @@ namespace Progra62024_Assets_OscarZumbado.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Apikey]
+    //[Apikey]
     public class UserRolesController : ControllerBase
     {
         private readonly Progra620241Context _context;
